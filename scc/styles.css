@@ -8,6 +8,7 @@
     --iris: #4D5AE5;
     --bgc-white: #ffffff;
     --bgc-nav: #2E2F42;
+    --cloud: #F4F4FD;
     
 }
 
@@ -91,7 +92,42 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    text-shadow: ;
+    text-shadow: 2px 2px 4px rgba(64, 75, 191, 1);
 }
 
 /* -----------------section */
+.section-team {
+    background-color: var(--cloud);
+}
+.section-h3 {
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2px;
+        letter-spacing: 0.02em;
+}
+.section-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+}
+footer {
+ background-color: var(--navy-blue)
+}
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+        color: var(--bgc-white);
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--cloud);
+
+}
