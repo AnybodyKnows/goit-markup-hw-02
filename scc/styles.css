@@ -1,0 +1,97 @@
+
+
+/* ------Var----------*/
+
+:root {
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --bgc-white: #ffffff;
+    --bgc-nav: #2E2F42;
+    
+}
+
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* -------------body and logo */
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--navy-blue) ;
+    background-color:var(--bgc-white);
+}
+
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        color: var(--navy-blue);
+
+}
+.logo-web {
+    color: var(--iris);
+
+}
+
+/*------- site-nav */
+.site-nav .link {
+    color: var(--navy-blue);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--slate);
+}
+.site-nav .link:active {
+    color: var(--iris);
+}
+/*------- adress */
+.adress .link {
+    color: var(--slate)
+}
+.adress .link:hover,  
+.adress .link:focus {
+    color: var(--iris)
+}
+
+/* ---------------hero */
+.hero {
+    background-color: var(--bgc-nav);
+}
+.hero-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--bgc-white);
+}
+.hero-btn {
+    background-color: var(--iris);
+    color: var(--bgc-white);
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.18;
+        align-items: center;
+        letter-spacing: 0.04em;
+}
+.hero-btn:active {
+    background-color: rgba(64, 75, 191, 1);;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    text-shadow: ;
+}
+
+/* -----------------section */
