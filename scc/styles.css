@@ -88,11 +88,12 @@ body {
         letter-spacing: 0.04em;
 }
 .hero-btn:active {
-    background-color: rgba(64, 75, 191, 1);;
+    background-color: rgba(64, 75, 191, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
-    text-shadow: 2px 2px 4px rgba(64, 75, 191, 1);
+    background-color: rgba(64, 75, 191, 1);
+;
 }
 
 /* -----------------section */
@@ -130,4 +131,22 @@ footer {
     line-height: 1.33;
     color: var(--cloud);
 
+}
+
+/* ---------Portfolio */
+.pictures-portfolio h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+.pictures-portfolio p {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;    
+        color: var(--slate);
 }
