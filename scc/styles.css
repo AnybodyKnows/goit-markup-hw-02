@@ -27,9 +27,12 @@ body {
     background-color:var(--bgc-white);
 }
 
+.button {
+ cursor: pointer;
+}
+
 .logo {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
@@ -44,8 +47,6 @@ body {
 /*------- site-nav */
 .site-nav .link {
     color: var(--navy-blue);
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
@@ -71,7 +72,6 @@ body {
     background-color: var(--bgc-nav);
 }
 .hero-title {
-        font-style: normal;
         font-weight: 600;
         font-size: 56px;
         line-height: 1.07;
@@ -107,7 +107,6 @@ body {
         letter-spacing: 0.02em;
 }
 .section-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.15;
         letter-spacing: 0.02em;
@@ -117,7 +116,6 @@ footer {
  background-color: var(--navy-blue)
 }
 .footer-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.15;
         letter-spacing: 0.02em;
@@ -125,7 +123,6 @@ footer {
 }
 .footer-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -135,16 +132,13 @@ footer {
 
 /* ---------Portfolio */
 .pictures-portfolio h3 {
-    font-family: 'Roboto';
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--navy-blue);
 }
 .pictures-portfolio p {
-    font-family: 'Roboto';
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;    
