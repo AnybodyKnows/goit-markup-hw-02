@@ -27,8 +27,9 @@ body {
     background-color:var(--bgc-white);
 }
 
-.button {
+button {
  cursor: pointer;
+ font-family: inherit;
 }
 
 .logo {
@@ -37,8 +38,11 @@ body {
         font-size: 18px;
         line-height: 1.33;
         color: var(--navy-blue);
-
+        text-transform: uppercase;
 }
+
+
+
 .logo-web {
     color: var(--iris);
 
@@ -47,7 +51,7 @@ body {
 /*------- site-nav */
 .site-nav .link {
     color: var(--navy-blue);
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
 }
@@ -60,7 +64,8 @@ body {
 }
 /*------- adress */
 .adress .link {
-    color: var(--slate)
+    color: var(--slate);
+    font-style: normal ;
 }
 .adress .link:hover,  
 .adress .link:focus {
@@ -72,36 +77,37 @@ body {
     background-color: var(--bgc-nav);
 }
 .hero-title {
-        font-weight: 600;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--bgc-white);
 }
-.hero-btn {
+.index-hero-btn {
     background-color: var(--iris);
     color: var(--bgc-white);
-    font-weight: 600;
+    font-weight: 500;
         font-size: 16px;
-        line-height: 1.18;
+        line-height: 1.5;
         align-items: center;
         letter-spacing: 0.04em;
 }
-.hero-btn:active {
-    background-color: rgba(64, 75, 191, 1);
-}
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: rgba(64, 75, 191, 1);
+
+.index-hero-btn:hover,
+.index-hero-btn:focus
+.index-hero-btn:active {
+    background-color: var(--cloud);
+    color: var(--iris)
 ;
 }
+
+
 
 /* -----------------section */
 .section-team {
     background-color: var(--cloud);
 }
 .section-h3 {
-    font-weight: 600;
+    font-weight: 500;
         font-size: 20px;
         line-height: 1.2px;
         letter-spacing: 0.02em;
@@ -112,6 +118,14 @@ body {
         letter-spacing: 0.02em;
         color: var(--slate);
 }
+
+/* Section What are we doing*/
+.section-h2{
+    text-transform: capitalize;
+}
+
+
+
 footer {
  background-color: var(--navy-blue)
 }
@@ -125,8 +139,10 @@ footer {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     color: var(--cloud);
+    text-transform: uppercase;
+    text-decoration: none;
 
 }
 
@@ -143,4 +159,24 @@ footer {
         line-height: 1.5;
         letter-spacing: 0.02em;    
         color: var(--slate);
+}
+
+.pictures-portfolio a{
+    text-decoration: none;
+}
+
+.hero-btn {
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus .hero-btn:active {
+    background-color: var(--iris);
+    color: var(--bgc-white);
 }
